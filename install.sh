@@ -16,4 +16,6 @@ ln -sfn "$DOTFILES_DIR/config/nvim" "$HOME/.config/nvim"
 echo "Installing Homebrew bundle packages..."
 brew bundle --file="$DOTFILES_DIR/Brewfile"
 
+"$DOTFILES_DIR/macos.sh"
+
 echo "Setup complete! Reload your shell with: source ~/.zshrc"
